@@ -1,0 +1,145 @@
+
+
+
+nav a{
+    color: white !important;
+    
+ }
+ 
+ .front{
+     background-color: #2B527E !important;
+ }
+ 
+ .ani{
+     animation: animate 1.5s linear infinite alternate-reverse;
+ }
+ 
+ @keyframes animate{
+     from{
+         transform: translateY(0);
+     }
+     to{
+         transform: translateY(-16px);
+     }
+ }
+ 
+ .pathner{
+     background-color: #DDDDDD;
+ }
+ 
+ .text{
+     color: #2B527E;
+ }
+ 
+ .lightgray{
+     width: 10%;
+     height: 1px;
+     background-color: darkgrey;
+ }
+ 
+ .blue{
+     width: 40%;
+     height: 2.5px;
+     background-color: var(--bs-info);
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+ }
+ 
+ .halfblue{
+     color: #2B527E;
+ }
+ 
+ .eum{
+     background-color: #F5F6F8;
+     padding: 2rem;
+ }
+ .b-white p{
+     background-color: white;
+ }
+ 
+ .d-flex{
+     justify-content: space-between;
+ }
+ .full{
+     width: 100%;
+     height: 0.7rem;
+     background-color: #2B527E;
+ }
+ 
+ .html1{
+     background-color:#F5F6F8;
+     width: 100%;
+ }
+ 
+ 
+ .css{
+     width: 90%;
+ }
+ 
+ .js{
+     width: 75%;
+ }
+ .ps{
+     width: 55%;
+ }
+ .services{
+     background-color: #F5F6F8;
+ }
+ 
+ 
+ .cerd{
+     background-color: white;
+     padding: 2.4rem 1.3rem ;
+     margin:0.8rem 0 ;
+ }
+ 
+ 
+ 
+ .ani1{
+     background-color: transparent;
+     transition: all 1s ;
+ }
+ 
+ .ani1:hover{
+     transform: translateY(-20px);
+ }
+ 
+ .b-img{
+     background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800/https://origininvestments.com/wp-content/uploads/2024/05/Image-3-800x400-2.jpg");
+     background-repeat:no-repeat ;
+     background-size: cover;
+ }
+ 
+ 
+ 
+ .bdrop{
+     /* display: flex;
+     justify-content: center;
+     align-items: centerf;
+     */
+ } 
+ 
+ .c-icon{
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     font-size: 1rem;
+     
+ }
+ 
+ .cd{
+     background-color: white;
+     box-shadow: 2px 2px 6px 2px lightgray;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ @media (max-width:370px){
+     .eum{
+         padding: 0;
+     }
+ }
